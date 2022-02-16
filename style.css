@@ -13,9 +13,9 @@ nav {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: #f16f16;
+  background: transparent;
   height: 3.5em;
-  color: white;
+  color: black;
   font-weight: bold;
   font-size: 1.2rem
 }
@@ -89,7 +89,13 @@ input{
   margin-top: 5px;
   border-radius: 5px;
 }
-
+footer{
+  display: flex;
+  align-items : center;
+  justify-content: center;
+  color: white;
+  background: black;
+}
 @media screen and (max-width: 748px) {
   .tool_box {
     background-color: #ffffff;
