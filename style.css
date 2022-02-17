@@ -91,10 +91,12 @@ input{
 }
 footer{
   display: flex;
-  align-items : center;
+  align-items: center;
   justify-content: center;
   color: white;
-  background: black;
+  width: 100%;
+  height: 10rem;
+  background: #393939;
 }
 @media screen and (max-width: 748px) {
   .tool_box {
